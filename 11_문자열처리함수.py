@@ -20,6 +20,7 @@ index = A.index("n")
 print(A.index("n"))
 print(A.index("n", index + 1))
 # n이 몇 번째 자리에 있는지 알려줌
+# 20번에서 찾은 n의 자리수 다음 문자열의 n의 
 
 #find
 print(A.find("S"))
