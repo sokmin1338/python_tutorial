@@ -1,0 +1,13 @@
+#랜덤함수
+# from randome import *
+from random import *
+print(random()) # 0.0이상 ~ 1.0 미만의 임의의 값
+print(random() *10) # 0.0이상 ~10.0 미만의 임의의 값
+print(int(random()*10)) #소숫점 제거, 0이상 ~ 10미만의 임의의 값
+print(int(random()*10)+1) # 0이 빠지고, 1이상 ~ 10이하의 임의의 값
+
+#핵심
+print(randrange(1, 200)) # 1이상 ~ 200미만의 임의의 값
+print(randint(1, 200)) # 1이상 ~ 200이하의 임의의 값
+# randrange 는 ~ 이상 ~ 미만
+# randint 는 ~ 이상 ~ 이하
