@@ -16,7 +16,9 @@ print(A.replace("likes","loves"))
 
 
 # index
+index = A.index("n")
 print(A.index("n"))
+print(A.index("n", index + 1))
 # n이 몇 번째 자리에 있는지 알려줌
 
 #find
