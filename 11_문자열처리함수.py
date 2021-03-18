@@ -18,7 +18,10 @@ print(A.replace("likes","loves"))
 # index
 index = A.index("n")
 print(A.index("n"))
-print(A.index("n", index + 1))
+print(A.index("n", index + 1)) #두 번째 들어가는 index는 변수다.!
+print(A.find("i"))
+find = A.find("i")
+print(A.find("i", find + 1)) # 두 번째 들어가는 find는 변수다.!
 # n이 몇 번째 자리에 있는지 알려줌
 # 20번에서 찾은 n의 자리수 다음 문자열의 n의 
 
