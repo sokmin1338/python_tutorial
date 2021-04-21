@@ -11,3 +11,10 @@ print(randrange(1, 200)) # 1이상 ~ 200미만의 임의의 값
 print(randint(1, 200)) # 1이상 ~ 200이하의 임의의 값
 # randrange 는 ~ 이상 ~ 미만
 # randint 는 ~ 이상 ~ 이하
+
+
+
+# shuffle, s
+lis = [1,2,3]
+shuffle(lis) # lis 안의 값을 무작위로 섞어줌
+sample(lis, 1) # lis 안의 값중에 1개를 뽑아줌
