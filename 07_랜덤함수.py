@@ -14,7 +14,7 @@ print(randint(1, 200)) # 1이상 ~ 200이하의 임의의 값
 
 
 
-# shuffle, s
+# shuffle, sample
 lis = [1,2,3]
 shuffle(lis) # lis 안의 값을 무작위로 섞어줌
 sample(lis, 1) # lis 안의 값중에 1개를 뽑아줌
