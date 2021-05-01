@@ -49,3 +49,15 @@ for man in bils :
 # 혁재님 주문하신 커피 나왔습니다.
 # 석민님 주문하신 커피 나왔습니다.
 # 원기님 주문하신 커피 나왔습니다.
+
+
+
+
+
+
+
+
+sm = []
+for i in range(1,20):
+    sm.append(i+20)
+print(sm)
